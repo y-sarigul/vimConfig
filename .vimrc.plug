@@ -1,0 +1,11 @@
+call plug#begin('~/.vim/plugged')
+
+Plug 'tpope/vim-fugitive'
+Plug 'preservim/nerdtree' " tree
+Plug 'https://github.com/preservim/tagbar' " Tagbar for code navigation
+Plug 'https://github.com/vim-airline/vim-airline' " Status bar
+Plug 'https://github.com/morhetz/gruvbox' " Theme
+Plug 'bling/vim-bufferline'
+Plug 'EdenEast/nightfox.nvim' " Vim-Plug	
+
+call plug#end()

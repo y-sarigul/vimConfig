@@ -1,0 +1,14 @@
+"tree
+nnoremap <C-t> :open .<CR>
+
+"togbar
+nmap <F3> :TagbarToggle<CR>
+
+"Terminal
+nmap <C-g> :terminal<CR>
+nmap <C-c> :vert terminal<CR>
+
+
+"buffer line
+nmap <Tab> :bnext <CR>
+nmap <C-d> :bdelete <CR>
